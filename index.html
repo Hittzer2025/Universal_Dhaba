@@ -7,9 +7,9 @@
     <script>
         const menu_url = "Menu.pdf";
 
-        // Redirect to the menu file
+        // Open the PDF in a new tab
         window.onload = function() {
-            window.location.href = menu_url;
+            window.open(menu_url, "_self"); // "_self" opens in the same tab
         };
     </script>
     <style>
@@ -26,5 +26,6 @@
 <body>
 
     <div class="footer">Powered by Hittzer</div>
+
 </body>
 </html>
