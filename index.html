@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <script>
+        const menu_url = "menu.pdf";
+
+        // Redirect to the menu file
+        window.onload = function() {
+            window.location.href = menu_url;
+        };
+    </script>
+    <style>
+        .footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 14px;
+            color: #555;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h2>Redirecting to the menu...</h2>
+    <p>If you are not redirected, <a href="menu.pdf">click here</a>.</p>
+
+    <div class="footer">Powered by Hittzer</div>
+</body>
+</html>
